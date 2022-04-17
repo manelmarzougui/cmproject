@@ -1,0 +1,36 @@
+.footer{
+
+ background-color: #205072e7;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ justify-content: space-around;
+ color: white
+}
+.icoons{
+ color: white;
+ width: 50px;
+ height: 30px;
+ margin-bottom: 80px;
+}
+.bloccc h3{
+ color: white;
+ font-size: large;
+ font-family:Arial, Helvetica, sans-serif;
+}
+.bloccc h6{
+ color: white;
+ 
+}
+.suivezzz h3{
+color: white;
+margin-top: 5px;
+}
+.suivezzz {
+  width: 13% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin-top: 30px;
+
+}

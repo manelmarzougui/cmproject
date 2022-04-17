@@ -1,0 +1,98 @@
+
+
+.body-form {
+  margin-top: 100px;
+  width: 30%;
+  margin: 50px 450px;
+  border: 1px solid #85CBCC;
+box-shadow: 3px 2px 6px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 6px 0px rgba(0,0,0,0.75);
+
+
+}
+
+.register-form input {
+  width: 250px;
+  height: 10px;
+  border: #85CBCC 1px solid;
+ 
+  border-radius: 3px;
+  margin: 0.5%;
+  pointer-events: visible;
+  padding: 2.5%;
+  outline: none;
+  margin-left: 70px;
+}
+.register-form button {
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1.8%;
+  width: 200px;
+  height: 40px;
+  background-color: #85CBCC;
+  color: beige;
+  border: none;
+  font-size: 20px;
+  justify-content: center;
+  margin-left: 100px;
+  align-items: center;
+}
+.register-form h1 {
+  width: 100%;
+  font-size: 45px;
+  padding: 5% 0;
+  margin-bottom: 3%;
+  
+  font-weight: 700;
+  text-align: center;
+  color: #85CBCC;
+  border-bottom: 1px solid silver;
+
+}
+.register-form h6,
+.register-form h5,
+.register-form p {
+  color: rgb(19, 18, 18);
+  text-align: center;
+
+  padding-top: 0%;
+  letter-spacing: 2;
+}
+.register-form h6 {
+  border-top: 1px solid silver;
+  padding-top: 10px;
+}
+.register-form p {
+  font-size: 10px;
+}
+.signup input:focus,
+.signup input:valid {
+  top: -5px;
+}
+::placeholder {
+  color: silver;
+  font-size: 1em;
+}
+.pass {
+  margin: -5px 0 20px 5px;
+  cursor: pointer;
+}
+.pass:hover {
+  text-decoration: underline;
+}
+.signup button:hover {
+  color: rgb(211, 188, 188);
+}
+input::placeholder {
+  font-size: 14px;
+}
+.btn-lg {
+  text-align: center !important;
+}
+/* .submit-btn p{
+  color: white;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 20px;
+} */

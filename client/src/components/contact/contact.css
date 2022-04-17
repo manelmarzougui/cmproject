@@ -1,0 +1,54 @@
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+.procard{
+  
+ display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  
+  margin: 50px 10px;
+
+
+}
+.card h2 {
+  color: #329D9C;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.card h3{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  /* color: #56C596; */
+  color: #329D9C;
+}
+.card h4  {
+  color: rgb(61, 58, 58);
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.card h5  {
+  color: rgb(61, 58, 58);
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.card{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.recherche input{
+ outline: none;
+  border: 1px solid #377aaae7;
+margin-left: 580px;
+margin-top: 10px;
+}
+.card img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 5px 70px;
+  justify-content: center;
+  align-items: center;
+}

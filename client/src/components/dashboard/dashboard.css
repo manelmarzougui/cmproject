@@ -1,0 +1,221 @@
+
+.modal-back {
+  background-color: aqua !important;
+}
+.addmodale {
+  width: 50%;
+  /* height: 100vh; */
+
+  border: 1px solid #35BBCA;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.addmodale button {
+  width: 60px;
+  margin: 10px auto;
+  border: #35BBCA 1px solid;
+  background-color: white;
+}
+.addmodale button:hover {
+  background-color: #35BBCA;
+}
+/* .addmodale input{
+ height: 25px;
+width: 400px;
+ margin-left: 70px; 
+} */
+.addmodale h4 {
+  margin-left: 60px;
+  color: rgb(61, 60, 60);
+}
+.addmodale input {
+  outline: none;
+}
+.inpt-name {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: space-around;
+}
+.inpt-name input {
+  margin-top: 20px;
+  height: 25px;
+  width: 400px;
+  margin-right: 100px;
+  border: 1px solid #35BBCA;
+}
+.grp_img {
+  display: flex;
+  flex-direction: column;
+}
+
+/*dashbord*/
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  /* position: absolute;  */
+}
+
+.dashboardContainer {
+  /* border-left: 1px solid rgba(0, 0, 0, 0.13); */
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 0;
+
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardContainer > h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font: 300 2rem 'Roboto';
+  text-align: center;
+  width: 50%;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.dashboardSummary {
+  margin: 2rem 0;
+}
+
+.dashboardSummary > div {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.dashboardSummary > div > p {
+  background-color: #35BBCA;
+  color: white;
+  font: 300 1.3rem 'Roboto';
+  text-align: center;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0 2rem;
+}
+.dashboardSummaryBox2 > a {
+  color: rgb(0, 0, 0);
+  font: 300 2rem 'Roboto';
+  text-align: center;
+  background-color: rgb(255, 233, 174);
+  text-decoration: none;
+  padding: 1.5rem;
+  width: 10vmax;
+  height: 10vmax;
+  margin: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboardSummaryBox2 > a:first-child {
+  background-color: rgb(224, 167, 167);
+  color: rgb(255, 255, 255);
+}
+
+.dashboardSummaryBox2 > a:last-child {
+  background-color: rgb(119, 114, 114);
+  color: rgb(255, 255, 255);
+}
+
+/* .lineChart {
+  width: 80%;
+  margin: auto;
+}  */
+
+/* .doughnutChart {
+  width: 30vmax;
+  margin: auto;
+}   */
+
+.logout_btn {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #e2c9aa;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+
+/* admin product*/
+
+.adminproduct th {
+  width: 22%;
+  padding: 5px;
+  border-bottom: 1px solid #35BBCA;
+  border-left: 1px solid #35BBCA;
+}
+.adminproduct table {
+  margin: 20px auto;
+  width: 100%;
+  border: 1px solid #35BBCA;
+}
+.adminproduct td {
+  text-align: center;
+  border-left: 1px solid #35BBCA;
+}
+.adminproduct h1 {
+  text-align: center;
+  color: rgb(87, 85, 85);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 25px;
+  font-size: 1.5rem;
+}
+.action {
+  display: flex;
+  justify-content: space-around;
+}
+.action-act {
+  width: 40%;
+}
+.ajouter-prod {
+  margin-left: 650px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid #35BBCA;
+}
+.ajouter-prod:hover {
+  transform: scale(1.1);
+}
+.moood{
+  background-color: red;
+}
+.inp_mod{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.inp_mod input{
+width: 80%;
+}
+.inp_mod h4{
+
+  width: 100px;
+}
+/* .update_ico {
+  width: 30px;
+  height: 30px;
+  color: #c37365 !important;
+} */
+.addmodale {
+  background-color: white;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+}
+.inpt-name{
+  display: flex;
+}
+.inpt-name h4{
+  margin-top: 20px;
+}
+.close-update{
+  margin-left: 600px;
+  margin-top: 10px;
+}
