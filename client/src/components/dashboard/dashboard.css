@@ -133,14 +133,7 @@ width: 400px;
   margin: auto;
 }   */
 
-.logout_btn {
-  width: 50px;
-  height: 30px;
-  border: 1px solid #e2c9aa;
-  background-color: white;
-  margin-top: 20px;
-  margin-left: 350px;
-}
+
 
 /* admin product*/
 
@@ -177,7 +170,7 @@ width: 400px;
   margin-left: 650px;
   margin-top: 20px;
   background-color: white;
-  border: 1px solid #35BBCA;
+  /* border: 1px solid #35BBCA; */
 }
 .ajouter-prod:hover {
   transform: scale(1.1);

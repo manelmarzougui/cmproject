@@ -26,7 +26,7 @@ console.log(users)
           <th>last name</th>
           <th>email</th>
           <th>phone</th>
-          <th>adresse</th>
+         
 
           <th>action</th>
         </tr>
@@ -38,7 +38,7 @@ console.log(users)
             <td>{el?.email}</td>
 
             <td>{el?.phone}</td>
-            <td>{el.adresse}</td>
+           
 
             <td className='action'>
               {/* {console.log(el)}
