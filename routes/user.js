@@ -112,9 +112,10 @@ router.put('/:id', async (req, res) => {
       },
       { $set: { ...req.body } }
     )
-    res.send({ result, msg: ' one user' })
+    res.send({ newuser:result, msg: ' one user' })
   } catch (error) {
     console.log(error)
+    
     res.send({ msg: 'fail' })
   }
 })

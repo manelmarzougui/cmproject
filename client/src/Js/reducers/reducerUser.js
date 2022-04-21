@@ -11,6 +11,7 @@ import {
   GET_USER_SUCCESS,
   GET_USER_FAIL,
   DELETE_USER,
+  UPDATE_USER,
 } from '../const/userConst'
 
 const initialState = {
@@ -43,6 +44,9 @@ export const userReducer = (state = initialState, { type, payload }) => {
       return { ...state, loadUser: true }
     case GET_USER_SUCCESS:
       return { ...state, status: 'success', users: payload.user }
+    case UPDATE_USER:
+      return { ...state, status: payload }
+  
     case GET_USER_FAIL:
       return { ...state, status: 'fail', errors: payload }
     case FAIL_USER:

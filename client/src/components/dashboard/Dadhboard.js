@@ -26,7 +26,6 @@ console.log(users)
           <th>last name</th>
           <th>email</th>
           <th>phone</th>
-         
 
           <th>action</th>
         </tr>
@@ -38,12 +37,11 @@ console.log(users)
             <td>{el?.email}</td>
 
             <td>{el?.phone}</td>
-           
 
             <td className='action'>
               {/* {console.log(el)}
               <AiFillEdit user={el} /> */}
-              <Edit/>
+              <Edit user={el} />
               <MdDelete
                 className='delete-ico'
                 onClick={() => {

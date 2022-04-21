@@ -48,7 +48,7 @@ const ModaleEdit = ({ user }) => {
             />
           </div>
         
-          <button onClick={() => handleEdit()}>update</button>
+          <button onClick={ handleEdit}>update</button>
         </div>
       ) : null}
     </div>

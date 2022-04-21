@@ -12,6 +12,7 @@ import {
   DELETE_USER,
   UPDATE_USER,
   UPDATE_USER_FAIL,
+  UPDATE_USER_SUCCESS,
 } from '../const/userConst'
 import axios from 'axios'
 
@@ -84,8 +85,11 @@ export const updateuser =
   async (dispatch) => {
     try {
       let result = await axios.put(`user/${id}`, modalEdit)
+    
       dispatch({ type: UPDATE_USER })
       dispatch(getusers())
+      
+      
     } catch (error) {
       dispatch({ type: UPDATE_USER_FAIL })
     }
